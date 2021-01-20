@@ -5,7 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: .3em;
+    letter-spacing: .2em;
 
   }
 
@@ -13,6 +13,9 @@ body{
     text-align: center;
     color: white;
     
+}
+label{
+    font-size: 18px;
 }
 h1{
     margin: 0,0,.1em,0;
@@ -27,20 +30,21 @@ p{
 .container{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: stretch;
 }
 .flex1{
     margin-top: 20%;
-    margin-right: 10px;
+}
+input{
+    display: inline-block;
 }
 .button {
-    background-color:rgba(0, 0, 0, 0.5); /* Green */
+    background-color:rgba(0, 0, 0, 0.5); /* Black */
     border: none;
     color: rgba(255,255,255,1);
     padding: 15px 32px;
     margin: 10px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
