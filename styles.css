@@ -54,6 +54,15 @@ input{
 .button:hover {
     background-color: #b93f1daa;
 }
+.button:active{
+    background-color: #bb3f1ddd;
+    border: none;
+    outline: none;
+}
+.button:focus{
+    border:none;
+    outline:none;
+}
 #mce-EMAIL{
     background-color: rgba(0, 0, 0, 0.5); /* Green */
     padding: 10px 25px;
@@ -64,4 +73,5 @@ input{
 }
 #mce-EMAIL:focus{
     outline: 1px solid #b93f1daa;
+    border: none;
 }
