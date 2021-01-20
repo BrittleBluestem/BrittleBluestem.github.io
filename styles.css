@@ -1,0 +1,57 @@
+html { 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Lichen.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .3em;
+
+  }
+
+body{
+    text-align: center;
+    color: white;
+    
+}
+h1{
+    margin: 0,0,.1em,0;
+}
+h2{
+    margin-bottom: 0;
+}
+p{
+    font-size: 8px;
+    padding-top: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.flex1{
+    margin-top: 20%;
+    margin-right: 10px;
+}
+.button {
+    background-color:rgba(0, 0, 0, 0.5); /* Green */
+    border: none;
+    color: rgba(255,255,255,1);
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    }
+.button:hover {
+    background-color: #b93f1d;
+}
+#mce-EMAIL{
+    background-color: #white; /* Green */
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+}
