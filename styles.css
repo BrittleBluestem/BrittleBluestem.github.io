@@ -52,7 +52,7 @@ input{
     font-family: 'Bebas Neue', cursive;
     }
 .button:hover {
-    background-color: #b93f1d;
+    background-color: #b93f1daa;
 }
 #mce-EMAIL{
     background-color: rgba(0, 0, 0, 0.5); /* Green */
@@ -63,5 +63,5 @@ input{
     border: none;
 }
 #mce-EMAIL:focus{
-    outline: 1px solid #b93f1d;
+    outline: 1px solid #b93f1daa;
 }
