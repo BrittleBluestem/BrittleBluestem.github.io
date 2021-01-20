@@ -5,7 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: .2em;
+    letter-spacing: .18em;
 
   }
 
@@ -16,6 +16,7 @@ body{
 }
 label{
     font-size: 18px;
+    letter-spacing: .1em;
 }
 h1{
     margin: 0,0,.1em,0;
@@ -44,7 +45,7 @@ input{
     border: none;
     color: rgba(255,255,255,1);
     padding: 15px 32px;
-    margin: 10px;
+    margin: 1em;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -54,8 +55,13 @@ input{
     background-color: #b93f1d;
 }
 #mce-EMAIL{
-    background-color: #white; /* Green */
-    padding: 15px 32px;
+    background-color: rgba(0, 0, 0, 0.5); /* Green */
+    padding: 10px 25px;
     display: inline-block;
     font-size: 16px;
+    color: white;
+    border: none;
+}
+#mce-EMAIL:focus{
+    outline: 1px solid #b93f1d;
 }
