@@ -8,9 +8,10 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: .1em;
-    
+    font-family: 'Benne', serif;
+}
+h1{
+    display: none;
 }
 iframe {
     text-align:center;
