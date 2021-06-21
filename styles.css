@@ -3,7 +3,7 @@
 body{
     text-align: center;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Lichen.jpg) no-repeat center center fixed; 
+    background: #66768b;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,64 +12,14 @@ body{
     letter-spacing: .1em;
     
 }
-label{
-    font-size: 18px;
-    letter-spacing: .03em;
-}
-h1{
-    margin: 0,0,.1em,0;
-}
-h2{
-    margin-bottom: 0;
-}
-p{
-    font-size: 8px;
-    padding-top: 0;
-}
-.container{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: stretch;
-}
-.flex1{
-    margin-top: 20%;
-}
-input{
-    display: inline-block;
-}
-.button {
-    background-color:rgba(0, 0, 0, 0.5); /* Black */
-    border: none;
-    color: rgba(255,255,255,1);
-    padding: 15px 32px;
-    margin: 1em;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Bebas Neue', cursive;
-    }
-.button:hover {
-    background-color: #b93f1daa;
-}
-.button:active{
-    background-color: #bb3f1ddd;
-    border: none;
-    outline: none;
-}
-.button:focus{
-    border:none;
-    outline:none;
-}
-#mce-EMAIL{
-    background-color: rgba(0, 0, 0, 0.5); /* Green */
-    padding: 10px 25px;
-    display: inline-block;
-    font-size: 16px;
+
+iframe {
+    background: #222;
     color: white;
-    border: none;
-}
-#mce-EMAIL:focus{
-    outline: 1px solid #b93f1daa;
-    border: none;
-}
+    border-radius: .5em;
+    padding: .5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
