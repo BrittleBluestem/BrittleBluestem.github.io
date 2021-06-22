@@ -15,12 +15,12 @@ h1{
 }
 iframe {
     text-align:center;
-    background: #222;
+    background: #66768b;
     border: 0;
     height: 400px;
     width: 400px;
     color: white;
-    border-radius: .5em;
+    border-radius: 0;
     padding: .5em;
     position: absolute;
     top: 50%;
