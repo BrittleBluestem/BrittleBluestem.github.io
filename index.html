@@ -1,20 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7a1e48ce196963b1e7c967a3f/f1184a629a29914ec6d9cbfcd.js");</script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
-    <title>Brittle Bluestem : Nature Music</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-</head>
-<body>
-        <h1>Waubonsie Brittle Bluestem</h1>
-        <iframe style="border: 0;" src="https://bandcamp.com/EmbeddedPlayer/album=2784842332/size=large/bgcol=333333/linkcol=e3b76d/minimal=true/transparent=true/" seamless><a href="https://brittlebluestem.bandcamp.com/album/waubonsie">Waubonsie by Brittle Bluestem</a></iframe>
-        <a href="https://open.spotify.com/album/54Ch4t0tcBVcX64BBQzedq?si=Tgp-V5ROQ--SXotd_XMRwg&dl_branch=1">
-            <img class="logo" src="assets/icons/Spotify_Icon_RGB_White.png" alt="Spotify Link"/>
-        </a> 
-</body>
-</html>
+
+<style>
+
+    a{
+        text-decoration: none;
+    }
+    body {
+      margin: 0;
+      background: #999;
+      min-width: 960px;
+      text-align:center;
+      font-size: 2em;
+    }
+    #light{
+        color: white;
+        text-decoration: none;
+        margin: auto;
+    }
+    #shadow{
+        color: black;
+        text-decoration: none;
+        margin: auto;
+        padding: auto;
+    }
+    .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #333;
+    margin: 0px auto;
+    position: relative;
+    text-align:center;
+    height: 50vh;
+    }
+    #lightcontainer{
+        background: #222;
+    }
+    #shadowcontainer{
+        background: #bbb;
+    }
+    
+    </style>
+
+<a href = './light.html' class = "container" id = 'lightcontainer'>
+    <p id='light'>Light</p>
+
+</a>
+
+<a href = './shadow.html' class = "container" id = 'shadowcontainer'>
+    <p id='shadow'>Shadow</p>
+
+</a>
+
