@@ -31,7 +31,7 @@ var canvas = d3.select("body").append("canvas")
 
 var context = canvas.node().getContext("2d");
 context.globalCompositeOperation = "lighter";
-context.lineWidth = .1;
+context.lineWidth = .5;
 
 d3.timer(function() {
   context.clearRect(0, 0, width, height);
