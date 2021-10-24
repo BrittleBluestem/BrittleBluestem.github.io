@@ -37,7 +37,7 @@ d3.timer(function() {
   context.clearRect(0, 0, width, height);
 
   var z = d3.hsl(++i % 360, 1, .5).rgb(),
-      c = "rgba(" + z.r + "," + z.g + "," + z.b + ",",
+      c = "rgba(" + 0 + "," + 0 + "," + 0 + ",",
       x = x0 += (x1 - x0) * .1,
       y = y0 += (y1 - y0) * .1;
 
@@ -46,7 +46,7 @@ d3.timer(function() {
       .ease(Math.sqrt)
       .tween("circle", function() {
         return function(t) {
-          // context.strokeStyle = c + (1 - t) + ")";
+          context.strokeStyle = c + (1 - t) + ")";
           context.beginPath();
           context.arc(x, y, r * t, 0, τ);
           context.stroke();
