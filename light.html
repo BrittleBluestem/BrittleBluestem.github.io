@@ -42,7 +42,7 @@ d3.timer(function() {
       y = y0 += (y1 - y0) * .1;
 
   d3.select({}).transition()
-      .duration(70000)
+      .duration(20000)
       .ease(Math.sqrt)
       .tween("circle", function() {
         return function(t) {
