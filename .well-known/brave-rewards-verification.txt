@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: brittlebluestem.com
+Token: fd455201512be0bef562f9b752da7cca30eb79d462e50ddf0f0a1acece74eb4b
