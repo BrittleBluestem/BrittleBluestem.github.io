@@ -1,87 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>waves</title>
-    <style>
-
-        a{
-            text-decoration: none;
-        }
-        body {
-          margin: 0;
-          background: #999;
-          min-width: 960px;
-          text-align:center;
-          font-size: 2em;
-        }
-        p{
-            text-decoration: none;
-            margin: auto;
-        }
-       
-        #waves{
-            color: rgb(0, 74, 117);
-            
-        }
-        #title{
-            font-size: 1.5em;
-        }
-        #subtitle{
-            font-size: .75em;
-            color: rgb(0, 74, 117);
-        }
-        #archive{
-            color: #ddd;
-            text-decoration: none;
-            margin: auto;
-        }
-        
-        .container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-        background: #333;
-        margin: 0px auto;
-        position: relative;
-        text-align:center;
-        height: 50vh;
-        }
-        #lightcontainer{
-            background-image: linear-gradient(rgba(128,159,212,1),rgba(241, 244, 246,1));
-        }
-        #shadowcontainer{
-            background: #bbb;
-        }
-       .i{
-           padding-top: 100px;
-       }
-        
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Jam</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts/script.js"></script>
 
 </head>
 <body>
-     
-    <a href = './waves.html' class = "container" id = 'lightcontainer'>
-        <p>
-            <span class = "title" id = 'waves'>waves</span><br>
-            <span id = "subtitle">an audio-visual experience<br> 
-            <i class="fa fa-headphones fa-lg"></i></span>
-        </p>
-    </a>
-    
-    <a href = './archive/index.html' class = "container" id = 'archivecontainer'>
-        <p id='archive'><span class = 'title'>archive</span></p>
-    
-    </a>
-    
+    <div class = "container">
+        <img id = "title" src = "/images/title.png" alt = "The Secret Jam"/> 
+    </div>
+        <div class = "container">
+                <audio id = "podcast" src = "https://media.rss.com/thesecretjam/20220303_090306_e152cb262631236be6b307d4aa9b6988.mp3" type = "audio/mp3"></audio>
+                <input type="image" id ="playButton" value = "play" onclick="changePlayImage()" src = "/images/play.png" alt = "Play"/> 
+            
+        </div>
+    <div id = "bottom" class = "container">
+        <ul>
+            <li><a href = "#"><input id="followButton" type="image" onclick="changeFollowImage()" src="/images/follow.png" alt = "follow"/></a></li>
+            <li><a href = "https://www.patreon.com/thesecretjam" target="_blank"><img src = "/images/support.png" alt = "support"/></a></li>
+            <li><a href = "mailto:bholloway377@gmail.com"><img src = "/images/contact.png" alt = "contact"/></a></li>
+        </ul>
+    </div>
+
 </body>
 </html>
-
-
-
